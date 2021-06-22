@@ -2,6 +2,13 @@ import { Injectable } from '@angular/core';
 import axios from 'axios';
 import { environment } from 'src/environments/environment';
 
+export interface Teams {
+  'Nombre del equipo': string;
+  id: string;
+  'Logo del Equipo': string;
+  Liga: string;
+}
+
 @Injectable({
   providedIn: 'root',
 })

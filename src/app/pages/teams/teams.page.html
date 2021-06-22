@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title size="large">Football Teams</ion-title>
+  </ion-toolbar>
+  <ion-searchbar></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <div id="container" *ngIf="teams; else elseNothing">
+    <ion-list>
+      <ion-item *ngFor="let team of teams" [routerLink]="['/players', team.id]">
+        <ion-avatar><img [src]="team['Logo del Equipo']" alt="" /></ion-avatar>
+        <ion-label>{{ team['Nombre del equipo'] }}</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+  <div id="container">
+    <ng-template #elseNothing>
+      <ion-list>
+        <ion-item>
+          <ion-label>No hay datos para mostrar...</ion-label>
+        </ion-item>
+      </ion-list></ng-template
+    >
+  </div>
+</ion-content>

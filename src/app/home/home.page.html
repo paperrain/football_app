@@ -1,5 +1,8 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
     <ion-title> Football </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,7 +16,10 @@
 
   <div id="container" *ngIf="leagues; else elseNothing">
     <ion-list>
-      <ion-item *ngFor="let league of leagues">
+      <ion-item
+        *ngFor="let league of leagues"
+        [routerLink]="['/teams', league.Identificador]"
+      >
         <ion-avatar
           ><img [src]="league['Logo de la Liga']" alt=""
         /></ion-avatar>
