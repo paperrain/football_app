@@ -1,20 +1,33 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Football </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Football</ion-title>
     </ion-toolbar>
   </ion-header>
 
+  <div id="container" *ngIf="leagues; else elseNothing">
+    <ion-list>
+      <ion-item *ngFor="let league of leagues">
+        <ion-avatar
+          ><img [src]="league['Logo de la Liga']" alt=""
+        /></ion-avatar>
+        <ion-label>{{ league["Nombre De La Liga"] }}</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ng-template #elseNothing>
+      <ion-list>
+        <ion-item>
+          <ion-label>No hay datos para mostrar...</ion-label>
+        </ion-item>
+      </ion-list></ng-template
+    >
   </div>
 </ion-content>

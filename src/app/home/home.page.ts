@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Leagues, LeaguesService } from '../services/leagues.service';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  leagues: Leagues[] = [];
 
-  constructor() {}
-
+  constructor(private leaguesService: LeaguesService) {
+    this.leaguesService.getAllLeagues().then((r) => (this.leagues = r));
+  }
 }
