@@ -9,7 +9,7 @@
 </ion-header>
 
 <ion-content>
-  <div id="container" *ngIf="players; else elseNothing">
+  <div id="container" *ngIf="players.length; else elseNothing">
     <ion-list>
       <ion-item *ngFor="let player of players">
         <ion-avatar><img [src]="player.Avatar" alt="" /></ion-avatar>
@@ -23,7 +23,7 @@
         <ion-item>
           <ion-label>No hay datos para mostrar...</ion-label>
         </ion-item>
-      </ion-list></ng-template
-    >
+      </ion-list>
+    </ng-template>
   </div>
 </ion-content>

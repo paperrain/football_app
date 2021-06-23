@@ -22,6 +22,30 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/players/players.module').then((m) => m.PlayersPageModule),
   },
+  {
+    path: 'addTeam',
+    loadChildren: () =>
+      import('./pages/a-team/a-team.module').then((m) => m.ATeamPageModule),
+  },
+  {
+    path: 'editTeam/:id',
+    loadChildren: () =>
+      import('./pages/e-team/e-team.module').then((m) => m.ETeamPageModule),
+  },
+  {
+    path: 'addPlayer',
+    loadChildren: () =>
+      import('./pages/a-player/a-player.module').then(
+        (m) => m.APlayerPageModule
+      ),
+  },
+  {
+    path: 'editPlayer/:id',
+    loadChildren: () =>
+      import('./pages/e-player/e-player.module').then(
+        (m) => m.EPlayerPageModule
+      ),
+  },
 ];
 
 @NgModule({

@@ -9,7 +9,7 @@
 </ion-header>
 
 <ion-content>
-  <div id="container" *ngIf="teams; else elseNothing">
+  <div id="container" *ngIf="teams.length; else elseNothing">
     <ion-list>
       <ion-item *ngFor="let team of teams" [routerLink]="['/players', team.id]">
         <ion-avatar><img [src]="team['Logo del Equipo']" alt="" /></ion-avatar>

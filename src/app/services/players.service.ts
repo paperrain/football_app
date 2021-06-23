@@ -15,8 +15,32 @@ export interface Players {
 export class PlayersService {
   constructor() {}
 
-  async getAllPlayers() {
-    const players = await axios.get(`${environment.apiUrl}/players`);
-    return players.data;
+  // Obtener todos los jugadores
+  getAllPlayers() {
+    return axios.get(`${environment.apiUrl}/players`).then((p) => p.data);
+  }
+
+  // Obtener un solo jugador
+  getPlayerId(id: string) {
+    return axios.get(`${environment.apiUrl}/players/${id}`).then((r) => r.data);
+  }
+
+  // Añadir nuevo jugador
+  addNewPlayer(player: Players) {
+    axios.post(`${environment.apiUrl}/players`, player);
+  }
+
+  // Editar jugador en base a su id
+  editPlayerId(player: Players) {
+    axios.put(`${environment.apiUrl}/players/${player.id}`, {
+      'Nombre del Jugador': player['Nombre del Jugador'],
+      Avatar: player.Avatar,
+      teamId: player.teamId,
+    });
+  }
+
+  // Borrar usuario por id
+  deletePlayerId(id: string) {
+    axios.delete(`${environment.apiUrl}/players/${id}`);
   }
 }

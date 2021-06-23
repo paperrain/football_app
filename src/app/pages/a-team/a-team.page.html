@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title size="large">Football Add New Team</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-text color="primary" class="info-add">
+      <h5>Enter the new team data sheet</h5>
+    </ion-text>
+    <ion-item>
+      <ion-label position="stacked">Name of the team</ion-label>
+      <ion-input
+        [(ngModel)]="newTeam['Nombre del equipo']"
+        (keyup)="validateName()"
+      ></ion-input>
+    </ion-item>
+    <div *ngIf="showErrorNameMessage">
+      <ion-text color="danger">
+        <ion-icon
+          class="error-icon"
+          name="information-circle-outline"
+        ></ion-icon>
+        <small>Fill the name!</small>
+      </ion-text>
+    </div>
+    <ion-item>
+      <ion-label position="stacked">Logo URL</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Leagues</ion-label>
+      <ion-select
+        value=""
+        okText="Select"
+        cancelText="Dismiss"
+        (ionChange)="validateSelect()"
+        [(ngModel)]="newTeam.Liga"
+      >
+        <ion-select-option
+          [value]="league.Identificador"
+          *ngFor="let league of leagues"
+          >{{league['Nombre De La Liga']}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <div *ngIf="showErrorLigaMessage">
+      <ion-text color="danger">
+        <ion-icon
+          class="error-icon"
+          name="information-circle-outline"
+        ></ion-icon>
+        <small>Select a valid league!</small>
+      </ion-text>
+    </div>
+    <div class="ion-text-center">
+      <ion-button color="primary" (click)="addNewPlayer()">Add Team</ion-button>
+    </div>
+    <div class="ion-text-center info-successful" *ngIf="showSuccessfulMessage">
+      <p>Team added successfuly!</p>
+    </div>
+  </div>
+</ion-content>

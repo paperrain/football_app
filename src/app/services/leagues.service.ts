@@ -14,8 +14,7 @@ export interface Leagues {
 export class LeaguesService {
   constructor() {}
 
-  async getAllLeagues() {
-    const leagues = await axios.get(`${environment.apiUrl}/leagues`);
-    return leagues.data;
+  getAllLeagues() {
+    return axios.get(`${environment.apiUrl}/leagues`).then((p) => p.data);
   }
 }
