@@ -1,6 +1,6 @@
 # Football App
 
-FootballApp is an application made with Angular + Ionic where you can manage teams and players in a simple way.
+FootballApp is an application made with Angular 12 + Ionic 6 where you can manage teams and players in a simple way.
 
 ## Installation
 
