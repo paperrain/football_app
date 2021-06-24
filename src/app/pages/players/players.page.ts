@@ -11,6 +11,8 @@ export class PlayersPage implements OnInit {
   selectedTeam: string;
   players: Players[] = [];
 
+  inputSearch: string = '';
+
   getPlayerData() {
     this.playersService
       .getAllPlayers()
@@ -20,6 +22,29 @@ export class PlayersPage implements OnInit {
             (data: { teamId: string }) => data.teamId == this.selectedTeam
           ))
       );
+  }
+
+  getFilterData() {
+    this.playersService
+      .getAllPlayers()
+      .then(
+        (r) =>
+          (this.players = r.filter(
+            (data: { teamId: string }) =>
+              data.teamId == this.selectedTeam &&
+              data['Nombre del Jugador']
+                .toLowerCase()
+                .startsWith(this.inputSearch.toLowerCase())
+          ))
+      );
+  }
+
+  getSearchData() {
+    if (this.inputSearch) {
+      this.getFilterData();
+    } else {
+      this.getPlayerData();
+    }
   }
 
   constructor(

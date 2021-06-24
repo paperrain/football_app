@@ -5,7 +5,10 @@
     </ion-buttons>
     <ion-title size="large">Football Teams</ion-title>
   </ion-toolbar>
-  <ion-searchbar></ion-searchbar>
+  <ion-searchbar
+    [(ngModel)]="inputSearch"
+    (keyup)="getSearchData()"
+  ></ion-searchbar>
 </ion-header>
 
 <ion-content>

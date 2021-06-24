@@ -11,6 +11,31 @@ export class TeamsPage implements OnInit {
   selectedLeague: string;
   teams: Teams[] = [];
 
+  inputSearch: string = '';
+
+  getFilterData() {
+    this.teamsService
+      .getAllTeams()
+      .then(
+        (r) =>
+          (this.teams = r.filter(
+            (data: { Liga: string }) =>
+              data.Liga == this.selectedLeague &&
+              data['Nombre del equipo']
+                .toLowerCase()
+                .startsWith(this.inputSearch.toLowerCase())
+          ))
+      );
+  }
+
+  getSearchData() {
+    if (this.inputSearch.length) {
+      this.getFilterData();
+    } else {
+      this.getTeamData();
+    }
+  }
+
   constructor(
     private teamsService: TeamsService,
     private activeRouter: ActivatedRoute
