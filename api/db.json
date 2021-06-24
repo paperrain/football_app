@@ -41,9 +41,9 @@
     },
     {
       "Nombre del equipo": "Geba",
-      "id": "e0f76bd2-af63-43bf-be84-0d633ad541fb",
       "Logo del Equipo": "https://robohash.org/facereimpeditdolores.png?size=250x250&set=set1",
-      "Liga": "0a886c97-032e-4f37-8caf-24d875b2ac21"
+      "Liga": "0a886c97-032e-4f37-8caf-24d875b2ac21",
+      "id": "e0f76bd2-af63-43bf-be84-0d633ad541fb"
     },
     {
       "Nombre del equipo": "Eamia",
@@ -56,12 +56,6 @@
       "id": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b",
       "Logo del Equipo": "https://robohash.org/velitfugitiure.png?size=250x250&set=set1",
       "Liga": "2b44c97f-c1f8-4731-a627-4bdedcca7ece"
-    },
-    {
-      "Nombre del equipo": "Zooveo",
-      "id": "72434eb3-b64f-49ff-9070-99780c5122af",
-      "Logo del Equipo": "https://robohash.org/quinonex.png?size=250x250&set=set1",
-      "Liga": "a249ed6a-ad8e-4692-9758-5d19454752f3"
     },
     {
       "Nombre del equipo": "Thoughtsphere",
@@ -598,12 +592,6 @@
       "Liga": "2b44c97f-c1f8-4731-a627-4bdedcca7ece"
     },
     {
-      "Nombre del equipo": "Photospace",
-      "id": "c2c0e97e-8d96-4e56-bc54-186c490b0518",
-      "Logo del Equipo": "https://robohash.org/etquoautem.png?size=250x250&set=set1",
-      "Liga": "a249ed6a-ad8e-4692-9758-5d19454752f3"
-    },
-    {
       "Nombre del equipo": "Oloo",
       "id": "24cbc130-2497-4ffd-a678-4254dd728da3",
       "Logo del Equipo": "https://robohash.org/istenihilsunt.png?size=250x250&set=set1",
@@ -626,21 +614,9 @@
       "id": "be26c85f-1f76-4256-81d7-ebf42f2e711a",
       "Logo del Equipo": "https://robohash.org/dolorinciduntquia.png?size=250x250&set=set1",
       "Liga": "2b44c97f-c1f8-4731-a627-4bdedcca7ece"
-    },
-    {
-      "Nombre del equipo": "HelloKitty",
-      "id": "7663705d-7dd6-4ea2-862b-c2076491f5e2",
-      "Logo del Equipo": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set3",
-      "Liga": "2b44c97f-c1f8-4731-a627-4bdedcca7ece"
     }
   ],
   "players": [
-    {
-      "Nombre del Jugador": "Auguste Penwarden",
-      "id": "ca85cfed-69d8-4e03-9259-960195bde933",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
     {
       "Nombre del Jugador": "Hildegarde Barkas",
       "id": "1e76b39a-78e6-471e-8c4f-d4d7b0a655ff",
@@ -664,12 +640,6 @@
       "id": "a933aea8-a3af-4d52-ac93-1779f201e607",
       "Avatar": "https://robohash.org/commodieavel.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Petronia Kirkham",
-      "id": "805abaa4-4a4d-4688-8bcd-8b5f8d53d3bb",
-      "Avatar": "https://robohash.org/etnesciuntquibusdam.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Gerrie Tinline",
@@ -1206,12 +1176,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Griswold Clows",
-      "id": "9344b90c-e00a-4a5f-bf49-d2860fa0e287",
-      "Avatar": "https://robohash.org/quiaremnam.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Devland Greystoke",
       "id": "5ce2834b-3422-4415-9a51-0b7586e715df",
       "Avatar": "https://robohash.org/nobismolestiaelaborum.png?size=250x250&set=set1",
@@ -1236,12 +1200,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Shelli Roache",
-      "id": "90a4b220-5597-4f89-af6a-21f32c9c22b3",
-      "Avatar": "https://robohash.org/consequunturaliquamatque.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Selle Battaille",
       "id": "e3699152-b1c3-490e-a666-b0a08fe1db8d",
       "Avatar": "https://robohash.org/optioexercitationemsed.png?size=250x250&set=set1",
@@ -1264,12 +1222,6 @@
       "id": "7c168fa4-cca9-44f9-b03c-52af4d0b336b",
       "Avatar": "https://robohash.org/remdolorquo.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Mendie De Avenell",
-      "id": "ffbb8554-1f13-404c-83d1-816101ecd12f",
-      "Avatar": "https://robohash.org/officiamaioresquo.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Tiphany Aulton",
@@ -1806,12 +1758,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Doralyn Illyes",
-      "id": "c8094071-3294-4a29-b51d-cb73d3e1f026",
-      "Avatar": "https://robohash.org/blanditiistemporibussapiente.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Nadia Leyzell",
       "id": "832fab7c-4f95-4fff-9ae4-caab6ee5d3a4",
       "Avatar": "https://robohash.org/veritatiscupiditateofficiis.png?size=250x250&set=set1",
@@ -1836,12 +1782,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Adolph Rugg",
-      "id": "57f21c2c-9c50-41b0-bef6-8520f26e33e0",
-      "Avatar": "https://robohash.org/delectussinteligendi.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Alasteir Greneham",
       "id": "583eb648-39cc-423d-b182-9de21b6f2400",
       "Avatar": "https://robohash.org/adipiscieosad.png?size=250x250&set=set1",
@@ -1864,12 +1804,6 @@
       "id": "ec0433b0-faa8-4779-8a75-50baad1cf04b",
       "Avatar": "https://robohash.org/temporibusnisiest.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Felic Tieraney",
-      "id": "95e7c679-22ce-43e0-86d6-41ac2ad8c64e",
-      "Avatar": "https://robohash.org/autsolutain.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Ezmeralda Parramore",
@@ -2406,12 +2340,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Stacee Willingale",
-      "id": "8a0294eb-f05f-4ecb-a660-5c97456de402",
-      "Avatar": "https://robohash.org/providentcommodiomnis.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Vito Sambell",
       "id": "d59e8b18-3b40-4fd2-8c5e-24f86bf3852a",
       "Avatar": "https://robohash.org/assumendaquodmolestias.png?size=250x250&set=set1",
@@ -2436,12 +2364,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Paulina Brockbank",
-      "id": "1a248cf6-655f-4d95-9c7c-6503026e442a",
-      "Avatar": "https://robohash.org/utvitaesed.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Duffy Heditch",
       "id": "5a52eeef-2468-4a66-ab40-bd5c5d5345c0",
       "Avatar": "https://robohash.org/porroconsecteturexcepturi.png?size=250x250&set=set1",
@@ -2464,12 +2386,6 @@
       "id": "d6d34779-a6b6-40a0-8baa-e8257e7a032c",
       "Avatar": "https://robohash.org/facerevoluptastemporibus.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Rosalynd Bosman",
-      "id": "74feea9e-7621-43d9-84b9-b7bc8ad1845c",
-      "Avatar": "https://robohash.org/laudantiumetearum.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Lauritz Toffano",
@@ -3006,12 +2922,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Johna Clayworth",
-      "id": "ac80d0f0-1f0c-4972-a508-52aa88543dca",
-      "Avatar": "https://robohash.org/modisaepefacere.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Emiline Lascelles",
       "id": "6074aa50-4e0d-4e0b-99ac-e3934aaab7af",
       "Avatar": "https://robohash.org/asperiorescorruptiquisquam.png?size=250x250&set=set1",
@@ -3036,12 +2946,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Analiese Watkiss",
-      "id": "333cdccd-9b24-4d6f-9583-91b19bf0a4b8",
-      "Avatar": "https://robohash.org/consecteturaliasdolor.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Garvy Wassung",
       "id": "8f296b23-3fcb-4c2b-816f-edb629ee5840",
       "Avatar": "https://robohash.org/itaquesintassumenda.png?size=250x250&set=set1",
@@ -3064,12 +2968,6 @@
       "id": "231ea8e0-6f82-41d4-abac-6b2b9a6e6ad0",
       "Avatar": "https://robohash.org/voluptatuminaut.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Laurella Porker",
-      "id": "12974713-3270-4ce8-9357-ca03a4b16699",
-      "Avatar": "https://robohash.org/omnisdoloremqueut.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Corina Duligal",
@@ -3606,12 +3504,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Culley Gray",
-      "id": "aff6203d-4ad7-44c2-9556-6d3848bdc6cd",
-      "Avatar": "https://robohash.org/impeditquiculpa.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Lorant Stapels",
       "id": "57394516-c7c7-4594-a672-4ca9b860ad6e",
       "Avatar": "https://robohash.org/inomnisillum.png?size=250x250&set=set1",
@@ -3636,12 +3528,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Chad Forrestall",
-      "id": "f3ae91a4-a3f1-4e00-8ba4-3324448a149c",
-      "Avatar": "https://robohash.org/quidemvelitexercitationem.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Hale Desporte",
       "id": "86c2fb01-2dfa-497f-893e-b6841c0aa39c",
       "Avatar": "https://robohash.org/dignissimosesteos.png?size=250x250&set=set1",
@@ -3664,12 +3550,6 @@
       "id": "25402523-7a45-479c-8de0-16c60a29e26b",
       "Avatar": "https://robohash.org/eligendienimqui.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Ianthe Tremeer",
-      "id": "0c2bb29e-213d-4536-8506-4491d6748d31",
-      "Avatar": "https://robohash.org/omnisetquis.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Mildrid Barcke",
@@ -4206,12 +4086,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Marna Perrins",
-      "id": "f2dea133-4329-408e-9237-eb342dcc8c39",
-      "Avatar": "https://robohash.org/veletnisi.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Carlee Johanssen",
       "id": "60d48612-77f2-4f84-86d4-815a5ee68289",
       "Avatar": "https://robohash.org/adinciduntunde.png?size=250x250&set=set1",
@@ -4236,12 +4110,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Teddy Chesterton",
-      "id": "01337091-c581-402b-8f38-2ce3e446ca45",
-      "Avatar": "https://robohash.org/oditsuntvel.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Clyve Clinton",
       "id": "7844e4a7-42a3-4ef4-8f19-c350779c8efb",
       "Avatar": "https://robohash.org/etfugiatexplicabo.png?size=250x250&set=set1",
@@ -4264,12 +4132,6 @@
       "id": "993411b6-3a82-47bb-9c8d-ae6e1d47e09a",
       "Avatar": "https://robohash.org/rerumfugiatmaiores.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Dante Sommerly",
-      "id": "1922af1d-4a9b-439d-87b6-695f1dab0831",
-      "Avatar": "https://robohash.org/quibusdammaioresperferendis.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Shurwood Hutchin",
@@ -4806,12 +4668,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Rosalynd Hanwright",
-      "id": "2c4376f7-8fd5-4f0b-b12b-cc756550ad37",
-      "Avatar": "https://robohash.org/eatemporibusquos.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Cad Hambric",
       "id": "5bf21b8b-e801-46e9-b19c-1b8ff61636b5",
       "Avatar": "https://robohash.org/explicabosimiliqueexercitationem.png?size=250x250&set=set1",
@@ -4836,12 +4692,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Bibi Lammerich",
-      "id": "e0d237a4-316b-4b78-8bb4-42342dbe1039",
-      "Avatar": "https://robohash.org/voluptatumdoloribusvoluptatibus.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Darby Tooth",
       "id": "8976f37d-3cc1-4ec2-86ce-b2dd0d02e903",
       "Avatar": "https://robohash.org/beataeexcepturirecusandae.png?size=250x250&set=set1",
@@ -4864,12 +4714,6 @@
       "id": "b179e2db-5ebd-4b77-98f8-13799f8956d9",
       "Avatar": "https://robohash.org/corruptiofficiavoluptatem.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Nye Oneill",
-      "id": "7cae167c-f319-442b-969c-9b32f03d770e",
-      "Avatar": "https://robohash.org/dignissimosetvel.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Lamar Broderick",
@@ -5406,12 +5250,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Belia Giovannoni",
-      "id": "eb1b0207-a0ed-4f2e-956b-6972f3d39e1b",
-      "Avatar": "https://robohash.org/evenietbeataecumque.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Dyan Satterthwaite",
       "id": "24deeed7-f71c-454e-bf76-07bedcf774c8",
       "Avatar": "https://robohash.org/etquaeratodio.png?size=250x250&set=set1",
@@ -5436,12 +5274,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Kennan Harder",
-      "id": "21f91bdc-f8bd-471e-983c-f864d66a5214",
-      "Avatar": "https://robohash.org/sapienteomnisimpedit.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Virgil Etherson",
       "id": "c2a17b16-3d01-4c46-a480-648e2bc6a88f",
       "Avatar": "https://robohash.org/necessitatibusrepellatomnis.png?size=250x250&set=set1",
@@ -5464,12 +5296,6 @@
       "id": "ffd0fad4-b564-4a91-9853-593696b672f3",
       "Avatar": "https://robohash.org/assumendacorporiset.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Kale Hyndes",
-      "id": "01005009-259f-43fd-ac47-9a24e91f58df",
-      "Avatar": "https://robohash.org/laboriosamvoluptatesquia.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Blakelee Ubsdall",
@@ -6006,12 +5832,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Yolande Toffanelli",
-      "id": "b6f87aae-9966-4a1b-ad66-ec44ca96538f",
-      "Avatar": "https://robohash.org/rerumliberoautem.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Nicolai Gayler",
       "id": "47641d9d-9565-41e5-b94b-da037067bfc1",
       "Avatar": "https://robohash.org/utestmagnam.png?size=250x250&set=set1",
@@ -6036,12 +5856,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Dido Fyfield",
-      "id": "cbdd259a-f6a8-4310-9c78-e7bb4961be58",
-      "Avatar": "https://robohash.org/quosmagninisi.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Gertrudis Salack",
       "id": "c0b0c5ac-3221-4897-8e50-4ab19a499651",
       "Avatar": "https://robohash.org/occaecatiundesint.png?size=250x250&set=set1",
@@ -6064,12 +5878,6 @@
       "id": "a5b330ed-6d7c-4227-8a7c-c9809dfae699",
       "Avatar": "https://robohash.org/magnietut.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Tomlin Sedworth",
-      "id": "04d40750-c014-41e2-90ac-da551dd7f086",
-      "Avatar": "https://robohash.org/quisquamconsequaturtempore.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Oswell Dumbleton",
@@ -6606,12 +6414,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Sibylle Spirritt",
-      "id": "d65fe24c-7e46-410c-b1fd-c1403521f5a4",
-      "Avatar": "https://robohash.org/estrecusandaeesse.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Hildagard Dionisio",
       "id": "0aabb2cc-8401-4185-816d-e8113fb54bbd",
       "Avatar": "https://robohash.org/totamcorruptiharum.png?size=250x250&set=set1",
@@ -6636,12 +6438,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Tine Salthouse",
-      "id": "1c2faa93-607e-452f-9f62-215fa48a5a89",
-      "Avatar": "https://robohash.org/repudiandaeveritatissequi.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Mohandis Scardifield",
       "id": "08787ded-4883-47bc-b9f9-7877a16e88e8",
       "Avatar": "https://robohash.org/inciduntcumquereiciendis.png?size=250x250&set=set1",
@@ -6664,12 +6460,6 @@
       "id": "e35ccaef-1e75-4e53-97ca-22af1fdb4fa8",
       "Avatar": "https://robohash.org/numquamdeseruntvoluptas.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Nissa Hansman",
-      "id": "f845771b-c292-432f-8edd-5ffc59cf36dc",
-      "Avatar": "https://robohash.org/dolorvoluptasdolor.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Mahmoud Swinerd",
@@ -7206,12 +6996,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Shermy Aslett",
-      "id": "aaea653f-b4a5-4384-a814-dd0f98085303",
-      "Avatar": "https://robohash.org/occaecatiquitenetur.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Sully Bradman",
       "id": "086f0ac1-d8bf-4cdb-b4f2-61e5ad755365",
       "Avatar": "https://robohash.org/essedoloremad.png?size=250x250&set=set1",
@@ -7236,12 +7020,6 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Carleen Shackesby",
-      "id": "f085581d-65ca-4042-87e3-e33df36025e7",
-      "Avatar": "https://robohash.org/eumofficiaet.png?size=250x250&set=set1",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Brynna Scain",
       "id": "9c34da5f-b8a5-41b9-927e-15071fba167c",
       "Avatar": "https://robohash.org/essequiadolor.png?size=250x250&set=set1",
@@ -7264,12 +7042,6 @@
       "id": "68c84795-5006-431a-a3be-86eccd04582d",
       "Avatar": "https://robohash.org/aliquamprovidentsimilique.png?size=250x250&set=set1",
       "teamId": "1d0bb8f3-0584-4222-90d7-e7a6c3a5100b"
-    },
-    {
-      "Nombre del Jugador": "Doralin Philipot",
-      "id": "c8ee7d10-9645-41e0-89cd-862f6d903a1a",
-      "Avatar": "https://robohash.org/intemporibusdeleniti.png?size=250x250&set=set1",
-      "teamId": "72434eb3-b64f-49ff-9070-99780c5122af"
     },
     {
       "Nombre del Jugador": "Camel Kimberly",
@@ -7806,12 +7578,6 @@
       "teamId": "d829fcd8-6da3-40dc-8e09-8d0c670d0551"
     },
     {
-      "Nombre del Jugador": "Westbrook Gooke",
-      "id": "9e2e902b-75df-42ab-a90d-7f472f42bf74",
-      "Avatar": "https://robohash.org/isteexcepturiipsa.png?size=250x250&set=set1",
-      "teamId": "c2c0e97e-8d96-4e56-bc54-186c490b0518"
-    },
-    {
       "Nombre del Jugador": "Benoit Brough",
       "id": "96b884f3-38d6-4c2c-95f3-ac75bd7ca0ab",
       "Avatar": "https://robohash.org/verolaborumvoluptatem.png?size=250x250&set=set1",
@@ -7836,70 +7602,10 @@
       "teamId": "be26c85f-1f76-4256-81d7-ebf42f2e711a"
     },
     {
-      "Nombre del Jugador": "Bente",
-      "id": "d6e1501c-ad00-484a-9286-40cd6635fe6e",
-      "Avatar": "",
-      "teamId": "8154f4cb-246b-4bf9-bc64-51f8661b6781"
-    },
-    {
       "Nombre del Jugador": "Test",
       "id": "98617906-29b2-4b33-aa98-9e27854b00ca",
       "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
       "teamId": "7cbd9c6d-e002-4d40-8bfa-f07e943f17a4"
-    },
-    {
-      "Nombre del Jugador": "Bente",
-      "id": "fee77921-bcf2-4ef0-8fd1-fe5031569706",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "Espartano",
-      "id": "3117a249-4674-4edb-aac2-6a79e7c2a15d",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "Test",
-      "id": "55eecb16-2f91-4143-a193-a50b2acf0298",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "Test2",
-      "id": "4e395be9-ed74-46e9-8960-ac8664cdff19",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "Test3",
-      "id": "5425d77a-f839-49e8-8bfe-9f1fa59107cb",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "Test222323423",
-      "id": "fc9d681e-b149-4bcc-b826-a20e8916b0a8",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "Super",
-      "id": "8e4f3776-3625-4147-b6e3-cbd25f2f1fd7",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "Tesfwfrwe",
-      "id": "2f2eef2f-bae2-4d47-b73e-f6ff68d6febf",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
-    },
-    {
-      "Nombre del Jugador": "54654",
-      "id": "a0e5b808-7aeb-4149-8af4-d0f6420832e2",
-      "Avatar": "https://robohash.org/etconsequunturreprehenderit.png?size=250x250&set=set2",
-      "teamId": "7663705d-7dd6-4ea2-862b-c2076491f5e2"
     }
   ]
 }

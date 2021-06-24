@@ -43,4 +43,9 @@ export class PlayersService {
   deletePlayerId(id: string) {
     axios.delete(`${environment.apiUrl}/players/${id}`);
   }
+
+  // Borrar todos los usuarios en un equipo
+  deleteAllPlayersTeamId(tId: string) {
+    axios.delete(`${environment.apiUrl}/players`, { data: { teamId: tId } });
+  }
 }

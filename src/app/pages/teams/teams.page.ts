@@ -16,14 +16,22 @@ export class TeamsPage implements OnInit {
     private activeRouter: ActivatedRoute
   ) {}
 
-  ngOnInit() {
-    this.selectedLeague = this.activeRouter.snapshot.paramMap.get('Liga');
-
+  getTeamData() {
     this.teamsService
       .getAllTeams()
       .then(
         (r) =>
           (this.teams = r.filter((data) => data.Liga == this.selectedLeague))
       );
+  }
+
+  ngOnInit() {
+    // Actualizada datos de los jugadores cuando se editen o eliminen
+    this.activeRouter.params.subscribe((params) => {
+      // Obtiene los parametros
+      this.selectedLeague = params['Liga'];
+      // Llama a la funcion
+      this.getTeamData();
+    });
   }
 }

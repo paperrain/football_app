@@ -62,6 +62,9 @@
     </div>
     <div class="ion-text-center info-successful" *ngIf="showSuccessfulMessage">
       <p>Player added successfuly!</p>
+      <ion-button color="primary" [routerLink]="['/players', newPlayer.teamId]"
+        >Back</ion-button
+      >
     </div>
   </div>
 </ion-content>

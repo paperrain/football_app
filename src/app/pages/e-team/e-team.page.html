@@ -1,9 +1,63 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>e-team</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title size="large">Football Edit Team</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div id="container">
+    <ion-text color="primary" class="info-add">
+      <h5>Enter the team data sheet</h5>
+    </ion-text>
+    <ion-item>
+      <ion-label position="stacked">Team</ion-label>
+      <ion-input
+        [(ngModel)]="editTeam['Nombre del equipo']"
+        (keyup)="validateName()"
+      ></ion-input>
+    </ion-item>
+    <div *ngIf="showErrorNameMessage">
+      <ion-text color="danger">
+        <ion-icon
+          class="error-icon"
+          name="information-circle-outline"
+        ></ion-icon>
+        <small>Fill the name!</small>
+      </ion-text>
+    </div>
+    <ion-item>
+      <ion-label position="stacked">Logo URL</ion-label>
+      <ion-input [(ngModel)]="editTeam['Logo del Equipo']"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>League</ion-label>
+      <ion-select
+        value=""
+        okText="Select"
+        cancelText="Dismiss"
+        [(ngModel)]="editTeam.Liga"
+      >
+        <ion-select-option
+          [value]="league.Identificador"
+          *ngFor="let league of leagues"
+          >{{league['Nombre De La Liga']}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <div class="ion-text-center">
+      <ion-button color="primary" (click)="editTeamId();">Edit Team</ion-button>
+      <ion-button color="danger" (click)="deleteTeamId()"
+        >Delete Team</ion-button
+      >
+    </div>
+    <div class="ion-text-center info-successful" *ngIf="showSuccessfulMessage">
+      <p>Player edited successfuly!</p>
+      <ion-button color="primary" [routerLink]="['/teams', editTeam.Liga]"
+        >Back</ion-button
+      >
+    </div>
+  </div>
 </ion-content>

@@ -11,9 +11,14 @@
 <ion-content>
   <div id="container" *ngIf="players.length; else elseNothing">
     <ion-list>
-      <ion-item *ngFor="let player of players">
+      <ion-item *ngFor="let player of players" button="true">
         <ion-avatar><img [src]="player.Avatar" alt="" /></ion-avatar>
-        <ion-label>{{ player['Nombre del Jugador'] }}</ion-label>
+        <ion-label>{{ player['Nombre del Jugador'] }} </ion-label>
+        <ion-icon
+          slot="end"
+          name="create-outline"
+          [routerLink]="['/editPlayer', player.id]"
+        ></ion-icon>
       </ion-item>
     </ion-list>
   </div>

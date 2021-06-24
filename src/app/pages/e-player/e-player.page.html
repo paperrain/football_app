@@ -1,9 +1,68 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>e-player</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title size="large">Football Edit Player</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div id="container">
+    <ion-text color="primary" class="info-add">
+      <h5>Enter the new team player's data sheet</h5>
+    </ion-text>
+    <ion-item>
+      <ion-label position="stacked">PlayerName</ion-label>
+      <ion-input
+        [(ngModel)]="editPlayer['Nombre del Jugador']"
+        [value]="editPlayer['Nombre del Jugador']"
+        (keyup)="validateName()"
+      ></ion-input>
+    </ion-item>
+    <div *ngIf="showErrorNameMessage">
+      <ion-text color="danger">
+        <ion-icon
+          class="error-icon"
+          name="information-circle-outline"
+        ></ion-icon>
+        <small>Fill the PlayerName!</small>
+      </ion-text>
+    </div>
+    <ion-item>
+      <ion-label position="stacked">Avatar URL</ion-label>
+      <ion-input
+        [(ngModel)]="editPlayer.Avatar"
+        [value]="editPlayer.Avatar"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Team</ion-label>
+      <ion-select
+        value=""
+        okText="Select"
+        cancelText="Dismiss"
+        [value]="editPlayer.teamId"
+        [(ngModel)]="editPlayer.teamId"
+      >
+        <ion-select-option [value]="team.id" *ngFor="let team of teams"
+          >{{team['Nombre del equipo']}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <div class="ion-text-center">
+      <ion-button color="primary" (click)="editPlayerId();"
+        >Edit Player</ion-button
+      >
+      <ion-button color="danger" (click)="deletePlayerId()"
+        >Delete Player</ion-button
+      >
+    </div>
+    <div class="ion-text-center info-successful" *ngIf="showSuccessfulMessage">
+      <p>Player edited successfuly!</p>
+      <ion-button color="primary" [routerLink]="['/players', editPlayer.teamId]"
+        >Back</ion-button
+      >
+    </div>
+  </div>
 </ion-content>

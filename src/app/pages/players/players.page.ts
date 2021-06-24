@@ -11,19 +11,7 @@ export class PlayersPage implements OnInit {
   selectedTeam: string;
   players: Players[] = [];
 
-  constructor(
-    private playersService: PlayersService,
-    private activeRouter: ActivatedRoute,
-    private router: Router
-  ) {
-    // Necesario para no necesitar recarga manual ???
-    this.router.onSameUrlNavigation = 'reload';
-  }
-
-  ngOnInit() {
-    this.activeRouter.paramMap.subscribe((params) => {
-      this.selectedTeam = params.get('Team');
-    });
+  getPlayerData() {
     this.playersService
       .getAllPlayers()
       .then(
@@ -32,5 +20,21 @@ export class PlayersPage implements OnInit {
             (data: { teamId: string }) => data.teamId == this.selectedTeam
           ))
       );
+  }
+
+  constructor(
+    private playersService: PlayersService,
+    private activeRouter: ActivatedRoute,
+    private router: Router
+  ) {}
+
+  ngOnInit() {
+    // Actualizada datos de los jugadores cuando se editen o eliminen
+    this.activeRouter.params.subscribe((params) => {
+      // Obtiene los parametros
+      this.selectedTeam = params['Team'];
+      // Llama a la funcion
+      this.getPlayerData();
+    });
   }
 }
