@@ -5,10 +5,7 @@
     </ion-buttons>
     <ion-title size="large">Football Players</ion-title>
   </ion-toolbar>
-  <ion-searchbar
-    [(ngModel)]="inputSearch"
-    (keyup)="getSearchData()"
-  ></ion-searchbar>
+  <ion-searchbar [(ngModel)]="inputSearch" (ngModelChange)="getSearchData()"></ion-searchbar>
 </ion-header>
 
 <ion-content>
@@ -17,11 +14,7 @@
       <ion-item *ngFor="let player of players" button="true">
         <ion-avatar><img [src]="player.Avatar" alt="" /></ion-avatar>
         <ion-label>{{ player['Nombre del Jugador'] }} </ion-label>
-        <ion-icon
-          slot="end"
-          name="create-outline"
-          [routerLink]="['/editPlayer', player.id]"
-        ></ion-icon>
+        <ion-icon slot="end" name="create-outline" [routerLink]="['/editPlayer', player.id]"></ion-icon>
       </ion-item>
     </ion-list>
   </div>
